@@ -85,7 +85,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi QuickFixLine guifg=#dfdfe0 guibg=#0f5bca gui=NONE cterm=NONE
   hi StatusLine guifg=#dfdfe0 guibg=#414453 gui=NONE cterm=NONE
   hi StatusLineNC guifg=#7f8c98 guibg=#393b44 gui=NONE cterm=NONE
-  hi VertSplit guifg=#393b44 guibg=#393b44 gui=NONE cterm=NONE
+  hi VertSplit guifg=#393b44 guibg=NONE gui=NONE cterm=NONE
   hi WildMenu guifg=#dfdfe0 guibg=#0f5bca gui=NONE cterm=NONE
   hi IncSearch guifg=#292a30 guibg=#fef937 gui=NONE cterm=NONE
   hi Search guifg=#dfdfe0 guibg=#414453 gui=NONE cterm=NONE
@@ -481,7 +481,7 @@ if s:t_Co == s:t_Co
   hi QuickFixLine ctermfg=254 ctermbg=26 cterm=NONE
   hi StatusLine ctermfg=254 ctermbg=238 cterm=NONE
   hi StatusLineNC ctermfg=245 ctermbg=237 cterm=NONE
-  hi VertSplit ctermfg=237 ctermbg=237 cterm=NONE
+  hi VertSplit ctermfg=237 ctermbg=NONE cterm=NONE
   hi WildMenu ctermfg=254 ctermbg=26 cterm=NONE
   hi IncSearch ctermfg=235 ctermbg=226 cterm=NONE
   hi Search ctermfg=254 ctermbg=238 cterm=NONE
