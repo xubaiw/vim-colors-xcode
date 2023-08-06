@@ -63,7 +63,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi SignColumn guifg=#53606e guibg=NONE gui=NONE cterm=NONE
     hi Signify guifg=#4484d1 guibg=NONE gui=NONE cterm=NONE
     hi Ignore guifg=#53606e guibg=NONE gui=NONE cterm=NONE
-    hi Pmenu guifg=#dfdfe0 guibg=#393b44 gui=NONE cterm=NONE
+    hi Pmenu guifg=#dfdfe0 guibg=NONE gui=NONE cterm=NONE
     hi PmenuSbar guifg=#393b44 guibg=#393b44 gui=NONE cterm=NONE
     hi PmenuSel guifg=#dfdfe0 guibg=#0f5bca gui=NONE cterm=NONE
     hi PmenuThumb guifg=#414453 guibg=#414453 gui=NONE cterm=NONE
@@ -415,7 +415,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi SignColumn guifg=#cdcdcd guibg=NONE gui=NONE cterm=NONE
   hi Signify guifg=#69a7fc guibg=NONE gui=NONE cterm=NONE
   hi Ignore guifg=#cdcdcd guibg=NONE gui=NONE cterm=NONE
-  hi Pmenu guifg=#262626 guibg=#f4f4f4 gui=NONE cterm=NONE
+  hi Pmenu guifg=#262626 guibg=NONE gui=NONE cterm=NONE
   hi PmenuSbar guifg=#f4f4f4 guibg=#f4f4f4 gui=NONE cterm=NONE
   hi PmenuSel guifg=#ffffff guibg=#156adf gui=NONE cterm=NONE
   hi PmenuThumb guifg=#e5e5e5 guibg=#e5e5e5 gui=NONE cterm=NONE
@@ -752,7 +752,7 @@ if s:t_Co >= 256
     hi SignColumn ctermfg=59 ctermbg=NONE cterm=NONE
     hi Signify ctermfg=32 ctermbg=NONE cterm=NONE
     hi Ignore ctermfg=59 ctermbg=NONE cterm=NONE
-    hi Pmenu ctermfg=254 ctermbg=237 cterm=NONE
+    hi Pmenu ctermfg=254 ctermbg=NONE cterm=NONE
     hi PmenuSbar ctermfg=237 ctermbg=237 cterm=NONE
     hi PmenuSel ctermfg=254 ctermbg=26 cterm=NONE
     hi PmenuThumb ctermfg=238 ctermbg=238 cterm=NONE
@@ -1085,7 +1085,7 @@ if s:t_Co >= 256
   hi SignColumn ctermfg=252 ctermbg=NONE cterm=NONE
   hi Signify ctermfg=111 ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=252 ctermbg=NONE cterm=NONE
-  hi Pmenu ctermfg=235 ctermbg=255 cterm=NONE
+  hi Pmenu ctermfg=235 ctermbg=NONE cterm=NONE
   hi PmenuSbar ctermfg=255 ctermbg=255 cterm=NONE
   hi PmenuSel ctermfg=231 ctermbg=26 cterm=NONE
   hi PmenuThumb ctermfg=254 ctermbg=254 cterm=NONE
